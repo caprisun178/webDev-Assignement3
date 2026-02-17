@@ -1,0 +1,95 @@
+/* Global */
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+  height: auto;
+}
+
+header {
+  background-color: #0A1F44;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+#logo {
+  max-height: 60px;
+  width: auto;
+}
+
+#title {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1.5rem;
+}
+
+main {
+  flex: 1;
+}
+
+aside {
+  width: 280px;             
+}
+
+#intro {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#restaurants {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.restaurant {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: gold;
+  align-items: flex-start;
+}
+
+.restaurant-image {
+  flex: 0 0 200px;
+}
+
+.restaurant-image img {
+  max-width: 200px;
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.restaurant-info {
+  flex: 1;
+}
+
+.dish-cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1px;
+}
+
+.dish-card {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  padding: 0.75rem;
+  background: white;
+}
+
