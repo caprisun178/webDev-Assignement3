@@ -22,4 +22,15 @@ components.forEach(currentComponent => {
     currentComponent.appendChild(priceSection);
 });
 
+const main = document.querySelector("main");
+
+const totalSection = document.createElement("div")
+totalSection.classList.add("total-section")
+const totalsHeader = document.createElement("h3")
+totalsHeader.textContent =  "Total Section"
+totalSection.appendChild(totalsHeader)
+main.appendChild(totalSection)
+
+
+
 

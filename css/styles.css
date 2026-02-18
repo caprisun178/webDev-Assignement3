@@ -99,4 +99,10 @@ aside {
   justify-content: space-between;
 }
 
+.total-section{
+  display: flex;
+  align-items: center;
+  border: 2px black;
+}
+
 
