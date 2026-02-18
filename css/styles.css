@@ -99,9 +99,13 @@ aside {
   justify-content: space-between;
 }
 
+#total-header{
+  text-decoration: underline;
+}
+
 .total-section{
   display: flex;
-  align-items: center;
+  justify-content: center;
   border: 2px black;
 }
 
