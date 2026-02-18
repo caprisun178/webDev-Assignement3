@@ -1,4 +1,4 @@
-/* Global */
+
 body {
   margin: 0;
 }
@@ -92,6 +92,8 @@ aside {
   padding: 0.75rem;
   background: white;
 }
+
+/* End of OG Code Start new code */
 
 .price-section{
   display: flex;
