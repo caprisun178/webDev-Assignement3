@@ -93,12 +93,16 @@ aside {
   background: white;
 }
 
+
+
 /* End of OG Code Start new code */
 
 .price-section{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: .75rem;
+  margin: .5rem;
 }
 
 #total-header{
@@ -106,9 +110,28 @@ aside {
 }
 
 .total-section{
-  display: flex;
-  justify-content: center;
-  border: 2px black;
+  display: block;
+  border: 2px solid black;
+}
+
+.dish-card-show {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  padding: 0.75rem;
+  background-color: rgba(2, 31, 68, .8);
 }
 
 
+#favorites-list{
+  margin: 0.75rem 0;
+  padding-left: 1.25rem;
+}
+
+#total-price{
+  font-weight: 700;
+}
+
+.price-label{
+  font-weight: 600;
+}
